@@ -1,0 +1,36 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 99%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: $color-bg;
+  padding: 0px;
+}
+
+.image-container {
+  background: $color-bg;
+  // background: radial-gradient(ellipse at center, rgba(255,255,255,1) 20%,rgba(210,210,210,1) 100%); 
+}
+
+.gallery-wrapper {
+  
+  padding-top: 50px;
+}
+
+.flex-column {
+  max-width: 300px;
+}
+
+a {
+  margin: 5px;
+}
+
+.img-fluid {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
